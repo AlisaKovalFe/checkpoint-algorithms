@@ -14,14 +14,6 @@ function crawlTree(arr) {
     }
 }
 
-console.log(crawlTree([
-    [
-        [["П", "р"], "и"],
-        ["в", ["е", "т"]],
-    ],
-    [["и", "к"], "и"],
-]));
-
 // Код для второго задания напиши в этой функции
 function twoSum(arr, target) {
     function executer(i, j) {
