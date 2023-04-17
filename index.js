@@ -23,9 +23,7 @@ function twoSum(arr, target) {
         if (j < arr.length) {
             return executer(i, j + 1)
         } else {
-            if (i < arr.length - 1) {
-                return executer(i + 1, i + 2)
-            }
+            return executer(i + 1, i + 2)
         }
     }
     return executer(0, 1)
